@@ -17,7 +17,7 @@ Los datos necesarios para ejecutar el script están en la carpeta `resultados.ts
 - Python 3.12.8
 - Conda 24.11.1
 ## Entorno Conda
-Para configurar el entorno conda, usa el archivo `environment.yml`.
+Para configurar el entorno conda, usa el archivo `environment.yaml`.
 
 ## Instrucciones de uso
 1. Clonar repositorio
