@@ -22,8 +22,10 @@ Para configurar el entorno conda, usa el archivo `environment.yml`.
 ## Instrucciones de uso
 1. Clonar repositorio
 `git clone https://github.com/melani-rojas/project_bioinformatics.git`
+`cd project_bioinformatics`
 
-2. Configurar el Entorno
+3. Configurar el Entorno
    `conda env create -f environment.yml`
-3. Ejecutar script
-   `jupyter notebook analyze_results.ipynb`
+   
+5. Ejecutar script
+   Enjupyter notebook abrir: `analyze_results.ipynb`
