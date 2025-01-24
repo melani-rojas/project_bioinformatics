@@ -11,7 +11,7 @@ Este proyecto se enfoca en identificar y analizar los genes de resistencia a bet
 -  `analyze_results.ipynb`: Script principal para análisis y visualización de datos.
 
 ## Datos
-Los datos necesarios `resultados.tsv` para ejecutar el script están en la carpeta `seq_project`. 
+Los datos necesarios para ejecutar el script están en la carpeta `resultados.tsv`.
 
 ## Requisitos Previos
 - Python 3.12.8
