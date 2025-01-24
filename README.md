@@ -3,6 +3,10 @@
 ## Descripción del Proyecto
 Este proyecto se enfoca en identificar y analizar los genes de resistencia a betalactámicos presentes en secuencias de bacterias patógenas, específicamente ***E. coli*** y ***Klebsiella pneumoniae***.
 
+## Enlaces a Archivos Grandes
+
+- [seq_project](https://drive.google.com/your_shared_link) contiene las secuencias utlizadas y resultados de control de calidad, filtrado y anotación
+
 ## Scripts
 -  `analyze_results.ipynb`: Script principal para análisis y visualización de datos.
 
