@@ -1,0 +1,33 @@
+import pandas as pd
+import matplotlib.pyplot as plt
+import seaborn as sns
+
+# Leer archivo TSV
+data = pd.read_csv('resultados.tsv', sep='\t', header=None)
+
+# Asignar nombres a las columnas
+data.columns = ['Query_ID', 'Subject_ID', 'Perc_Identity', 'Alignment_Length', 'Mismatches', 'Gap_Opens', 'Query_Start', 'Query_End', 'Subject_Start', 'Subject_End', 'E_Value', 'Bit_Score']
+
+# Ver los primeros registros
+print(data.head())
+
+# Configuración de gráficos
+sns.set(style='whitegrid')
+
+# Histograma del porcentaje de identidad
+plt.figure(figsize=(10, 6))
+sns.histplot(data['Perc_Identity'], bins=30, kde=True)
+plt.title('Distribución del Porcentaje de Identidad')
+plt.xlabel('Porcentaje de Identidad')
+plt.ylabel('Frecuencia')
+plt.show()
+
+# Gráfico de dispersión E-Value vs. Bit Score
+plt.figure(figsize=(10, 6))
+sns.scatterplot(x='E_Value', y='Bit_Score', data=data, hue='Perc_Identity', palette='viridis', size='Alignment_Length', sizes=(20, 200))
+plt.title('Relación entre E-Value y Bit Score')
+plt.xlabel('E-Value')
+plt.ylabel('Bit Score')
+plt.xscale('log')
+plt.yscale('log')
+plt.show()
