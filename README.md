@@ -12,3 +12,9 @@ Los datos necesarios `resultados.tsv` para ejecutar el script están en la carpe
 ## Entorno Conda
 Para configurar el entorno conda, usa el archivo `environment.yml`.
 
+## Instrucciones de uso
+1. Clonar repositorio
+`git clone https://github.com/tu_usuario/tu_repositorio.git`
+
+2. Configurar el Entorno
+   `conda env create -f environment.yml`
