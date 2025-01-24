@@ -5,7 +5,7 @@ Este proyecto se enfoca en identificar y analizar los genes de resistencia a bet
 
 ## Enlaces a Archivos Grandes
 
-- [seq_project](https://drive.google.com/your_shared_link) contiene las secuencias utlizadas y resultados de control de calidad, filtrado y anotación
+- [seq_project](https://drive.google.com/drive/folders/152cwM-1nBqGJ3dnvK1JY4YDOsJE8nL2C?usp=sharing) contiene las secuencias utlizadas y resultados de control de calidad, filtrado y anotación
 
 ## Scripts
 -  `analyze_results.ipynb`: Script principal para análisis y visualización de datos.
